@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="my_cardView" parent="Widget.MaterialComponents.CardView">
+        <item name="elevationOverlayEnabled">false</item>
+        <item name="backgroundTint">@color/gray</item>
+        <item name="cardForegroundColor">@color/timer_num</item>"
+    </style>
+</resources>
