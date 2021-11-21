@@ -1,14 +1,14 @@
-package net.svichch.geekbrains.android.studentdiary.ui.home.lesson
+package net.svichch.geekbrains.android.studentdiary.ui.schedule
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import net.svichch.geekbrains.android.studentdiary.data.DataLesson
 import net.svichch.geekbrains.android.studentdiary.data.Lesson
-import net.svichch.geekbrains.android.studentdiary.databinding.HomeLessonItemBinding
+import net.svichch.geekbrains.android.studentdiary.databinding.ScheduleLessonItemBinding
 
-class ListLessonAdapter(private val list: List<Lesson>) :
-    RecyclerView.Adapter<ListLessonAdapter.ViewHolder>() {
+class ScheduleLessonAdapter(private val list: List<Lesson>) :
+    RecyclerView.Adapter<ScheduleLessonAdapter.ViewHolder>() {
 
     var dataLesson = DataLesson()
 
@@ -27,7 +27,7 @@ class ListLessonAdapter(private val list: List<Lesson>) :
 
     inner class ViewHolder(
         parent: ViewGroup,
-        private val binding: HomeLessonItemBinding = HomeLessonItemBinding.inflate(
+        private val binding: ScheduleLessonItemBinding = ScheduleLessonItemBinding.inflate(
             LayoutInflater.from(parent.context),
             parent,
             false,
@@ -43,7 +43,7 @@ class ListLessonAdapter(private val list: List<Lesson>) :
                 imageIcon.setImageResource(dataLesson.getIcon(lesson.name))
                 dateStart.text = lesson.dateStart
                 dateStop.text = lesson.dateStop
-
+                textTeacher.text = lesson.teacher
             }
         }
     }

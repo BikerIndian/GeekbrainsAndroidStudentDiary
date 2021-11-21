@@ -35,7 +35,7 @@
             app:srcCompat="@drawable/chemistry" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/image_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
@@ -52,8 +52,8 @@
             android:textColor="@color/white"
             android:layout_marginStart="10dp"
             android:text="@string/lessons_date_start"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+            app:layout_constraintStart_toEndOf="@+id/image_time"
+            app:layout_constraintTop_toTopOf="@+id/image_time" />
 
         <TextView
             android:id="@+id/start_stop"

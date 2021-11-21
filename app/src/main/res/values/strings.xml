@@ -7,5 +7,6 @@
     <string name="timer_text_days">Дней</string>
     <string name="timer_text_hour">Часов</string>
     <string name="timer_text_minute">Минут</string>
+    <string name="teacher">Учитель:</string>
 
 </resources>

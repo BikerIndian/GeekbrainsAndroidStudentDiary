@@ -6,17 +6,18 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import net.svichch.geekbrains.android.studentdiary.databinding.FragmentHomeBinding
-import net.svichch.geekbrains.android.studentdiary.ui.home.lesson.DataLesson
+import net.svichch.geekbrains.android.studentdiary.data.DataLesson
 import net.svichch.geekbrains.android.studentdiary.ui.home.lesson.ListLessonAdapter
 import net.svichch.geekbrains.android.studentdiary.ui.home.timer.TimerExam
 import java.util.*
 
-
 class FragmentHome : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
+
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
 

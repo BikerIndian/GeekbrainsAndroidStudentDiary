@@ -7,18 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.FragmentHome">
 
-    <TextView
-        android:id="@+id/textView"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/scheduleRecycler"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="@string/timer_blank"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:background="@drawable/timer_num_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:spanCount="1" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

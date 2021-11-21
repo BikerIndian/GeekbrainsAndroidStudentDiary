@@ -1,4 +1,4 @@
-package net.svichch.geekbrains.android.studentdiary.ui.home.lesson
+package net.svichch.geekbrains.android.studentdiary.data
 
 import net.svichch.geekbrains.android.studentdiary.R
 
@@ -9,12 +9,12 @@ class DataLesson {
     private val lessonsName = mutableListOf<Int>()
 
     fun getLessons(): List<Lesson> {
-        lessons.add(Lesson(1, "8:00", "8:45"))
-        lessons.add(Lesson(2, "9:00", "9:45"))
-        lessons.add(Lesson(3, "10:00", "10:45"))
-        lessons.add(Lesson(4, "11:00", "11:45"))
-        lessons.add(Lesson(5, "12:00", "12:45"))
-        lessons.add(Lesson(6, "13:00", "13:45"))
+        lessons.add(Lesson(1, "8:00", "8:45","Кляпка Оксана"))
+        lessons.add(Lesson(2, "9:00", "9:45","Банкова Александра"))
+        lessons.add(Lesson(3, "10:00", "10:45","Жигарева Ольга"))
+        lessons.add(Lesson(4, "11:00", "11:45","Куприянова Елена"))
+        lessons.add(Lesson(5, "12:00", "12:45","Рахимбаева Ширин"))
+        lessons.add(Lesson(6, "13:00", "13:45","Соловьева Ольга"))
 
         return lessons
     }
