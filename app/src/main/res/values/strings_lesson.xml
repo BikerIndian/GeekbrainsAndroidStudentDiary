@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="lessons_text_top">Список с уроками</string>
+    <string name="lessons_text_title">Алгебра</string>
+    <string name="lessons_date_start">8:00</string>
+    <string name="lessons_date_star_stop">-</string>
+    <string name="lessons_date_stop">9:00</string>
+
+    <string name="lesson_name_algebra">Алгебра</string>
+    <string name="lesson_name_biology">Биология</string>
+    <string name="lesson_name_drawing">Рисование</string>
+    <string name="lesson_name_chemistry">Химия</string>
+    <string name="lesson_name_geography">География</string>
+    <string name="lesson_name_geometry">Геометрия</string>
+    <string name="lesson_name_history">История</string>
+    <string name="lesson_name_literature">Литература</string>
+    <string name="lesson_name_mathematics">Математика</string>
+    <string name="lesson_name_music">Музыка</string>
+    <string name="lesson_name_physical">Физкультура</string>
+    <string name="lesson_name_physics">Физика</string>
+    <string name="lesson_name_technology">Труды</string>
+
+</resources>

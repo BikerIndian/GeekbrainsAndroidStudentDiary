@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/gradient_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textTimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/timer_blank"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/textTimer"
+        tools:layout_editor_absoluteX="1dp">
+
+
+        <FrameLayout
+            android:background="@drawable/timer_num2_bg"
+            style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/days_1"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/days_2"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text=":"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+        </FrameLayout>
+
+
+
+        <FrameLayout style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/hour_1"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/hour_2"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=":"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <FrameLayout style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/minute_1"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+        <FrameLayout style="@style/timer_FrameLayout">
+
+            <TextView
+                android:id="@+id/minute_2"
+                style="@style/timer_text"
+                android:text="@string/timer_num" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/timer_text_days"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <TextView
+        android:id="@+id/text_hour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timer_text_hour"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/text_minute"
+        app:layout_constraintStart_toEndOf="@+id/text_days"
+        app:layout_constraintTop_toTopOf="@+id/text_days" />
+
+    <TextView
+        android:id="@+id/text_minute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="60dp"
+        android:text="@string/timer_text_minute"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/text_hour" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
