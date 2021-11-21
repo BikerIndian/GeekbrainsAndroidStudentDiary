@@ -6,10 +6,12 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import net.svichch.geekbrains.android.studentdiary.ui.home.FragmentHome
 import net.svichch.geekbrains.android.studentdiary.ui.schedule.FragmentSchedule
 
-private const val EARTH_HOME = 0
-private const val MARS_SCHEDULE = 1
+
 
 class ViewPagerAdapter(fragment: FragmentActivity, private var itemCount: Int) : FragmentStateAdapter(fragment) {
+
+    private val EARTH_HOME = 0
+    private val MARS_SCHEDULE = 1
 
     private val fragments = arrayOf(FragmentHome(), FragmentSchedule())
 
@@ -23,4 +25,5 @@ class ViewPagerAdapter(fragment: FragmentActivity, private var itemCount: Int) :
         }
 
     }
+
 }

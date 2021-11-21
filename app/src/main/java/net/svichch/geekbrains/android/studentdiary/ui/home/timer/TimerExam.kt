@@ -1,4 +1,4 @@
-package net.svichch.geekbrains.android.studentdiary.ui.home
+package net.svichch.geekbrains.android.studentdiary.ui.home.timer
 
 import net.svichch.geekbrains.android.studentdiary.databinding.FragmentHomeBinding
 import java.text.SimpleDateFormat

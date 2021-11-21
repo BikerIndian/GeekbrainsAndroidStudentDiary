@@ -12,4 +12,9 @@
     <color name="green_2">#39A58B</color>
     <color name="timer_num">#506E6E6E</color>
     <color name="timer_num2">#50BCBCBC</color>
+
+    <color name="lesson_bg">#508C8C8C</color>
+    <color name="lesson_bg1">#508C8C8C</color>
+    <color name="lesson_bg2">#50757575</color>
+
 </resources>

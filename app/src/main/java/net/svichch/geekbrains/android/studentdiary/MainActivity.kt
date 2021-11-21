@@ -9,7 +9,7 @@ class MainActivity : FragmentActivity() {
 
 
     // tab titles
-    private val titles = arrayOf("Уроки ","Расписание")
+    private val titles = arrayOf("Уроки ", "Расписание")
     private val tabNumbers: Array<Int> = arrayOf(
         R.drawable.ic_home,
         R.drawable.ic_schedule
@@ -27,6 +27,8 @@ class MainActivity : FragmentActivity() {
     private fun init() {
 
         binding.viewPager.adapter = ViewPagerAdapter(this, titles.size)
+        // отключение прокрутки
+        binding.viewPager.isUserInputEnabled = false
 
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { tab, position ->
             tab.text = titles[position]
