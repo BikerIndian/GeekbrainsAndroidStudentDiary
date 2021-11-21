@@ -3,47 +3,39 @@
 
     <item>
         <shape android:shape="rectangle">
-
-            <corners android:radius="30dp" />
-            <gradient
-                android:type="linear"
-                android:angle="0"
-                android:startColor="@color/green_1"
-                android:endColor="@color/green_2"/>
+            <solid android:color="@color/timer_num" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
-
     <item>
         <shape android:shape="rectangle">
             <stroke
                 android:color="#006E6E6E"
 
                 android:width="5dp"/>
-            <corners android:radius="30dp" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
-            <stroke android:color="#106E6E6E"
+            <stroke android:color="#056E6E6E"
                 android:width="4dp"/>
-            <corners android:radius="30dp" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
     <item>
         <shape android:shape="rectangle">
-            <stroke android:color="#206E6E6E"
+            <stroke android:color="#0D6E6E6E"
                 android:width="3dp"/>
-            <corners android:radius="30dp" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
 
     <item>
         <shape android:shape="rectangle">
-            <stroke android:color="#306E6E6E"
+            <stroke android:color="#156E6E6E"
                 android:width="2dp"/>
-            <corners android:radius="30dp" />
+            <corners android:radius="10dp" />
         </shape>
     </item>
 </layer-list>
-
-<?xml version="1.0" encoding="utf-8"?>

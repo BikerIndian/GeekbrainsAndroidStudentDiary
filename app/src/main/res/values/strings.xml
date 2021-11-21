@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name">Student Diary</string>
 
-    <string name="hello_blank_fragment">Timer</string>
+    <string name="timer_blank">Вы готовы к экзаменам? </string>
     <string name="tab_home">Home</string>
+    <string name="timer_num">0</string>
+    <string name="text_days">Дней</string>
+    <string name="text_hour">Часов</string>
+    <string name="text_minute">Минут</string>
 </resources>

@@ -10,6 +10,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="green_1">#48F186</color>
     <color name="green_2">#39A58B</color>
-    <color name="timer_num">#906E6E6E</color>
-
+    <color name="timer_num">#506E6E6E</color>
+    <color name="timer_num2">#50BCBCBC</color>
 </resources>

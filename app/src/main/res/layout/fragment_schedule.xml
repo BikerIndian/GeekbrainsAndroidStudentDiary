@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/hello_blank_fragment"
+        android:text="@string/timer_blank"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:background="@drawable/timer_num_bg"
